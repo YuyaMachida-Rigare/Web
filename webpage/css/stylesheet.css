@@ -9,6 +9,11 @@ a {
 	text-decoration: none;
 }
 
+p {
+	line-height: 1.5;
+	font-size: 15px;
+}
+
 html {
 	height: 100%;
 }
@@ -21,12 +26,12 @@ body {
 	height: 100%;
 }
 
-.container  {
+.container {
 	background-color: #333333;
 	height: auto;
 }
 
-.top-banner{
+.top-banner {
     display: flex;
     flex-wrap: wrap;
 }
@@ -38,7 +43,7 @@ body {
 }
 
 .top-banner li img {
-    max-width: 35%;  /*画像のはみだしを防ぐ*/
+    max-width: 20%;  /*画像のはみだしを防ぐ*/
     height: auto;  /*画像の縦横比を維持 */
 }
 
@@ -72,7 +77,7 @@ body {
 	float: right;
     display: flex;
     flex-wrap: wrap;
-	margin-top: -240px;
+	margin-top: -210px;
 }
 
 .instagram {
@@ -131,12 +136,351 @@ body {
 main {
 	background-color: #dedede;
 	height: auto;
+	overflow: hidden;
+}
+
+h2 {
+	text-align: center;
+}
+
+.title-about {
+	padding: 60px 0 0 100px;
+}
+
+.title-about span {
+	color: purple;
+}
+
+.title-about p {
+	font-size: 15px;
+}
+
+.title-design {
+	padding: 60px 0 0 100px;
+}
+
+.title-design span {
+	color: #FF00F5;
+}
+
+.title-design p {
+	font-size: 15px;
+}
+
+.title-work {
+	padding: 60px 0 0 100px;
+}
+
+.title-work span {
+	color: #4FBCF5;
+}
+
+.title-work p {
+	font-size: 15px;
+}
+
+.title-contact {
+	padding: 60px 0 0 100px;
+}
+
+.title-contact span {
+	color: red;
+}
+
+.title-contact p {
+	font-size: 15px;
+}
+
+.main-icon {
+	float: left;
+	width: 50%;
+}
+
+.main-icon li {
+	list-style: none;
+    padding: 60px 0 0 120px;  /*←画像の上下に20pxの余白を入れる場合*/
+    box-sizing: border-box;
+}
+
+.main-icon li img {
+	max-width: 60%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+.main-about  {
+	float: right;
+	width: 50%;
+	padding: 115px 0  0;
+}
+
+.main-about p {
+	font-size: 14px;
+}
+
+.illustration-container {
+	margin: 300px 0;
+}
+.illst-content {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.illst-content li {
+	list-style: none;
+    width: calc(50%/4);  /*←画像を横に4つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.illst-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.illst-content li img:hover {
+	opacity: 0.8;
+}
+
+.sketch-container {
+	margin: 300px 0;
+}
+
+.sketch-content {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.sketch-content li {
+	list-style: none;
+    width: calc(65%/7);  /*←画像を横に2つ並べる場合*/
+    padding: 0 5px 0 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.sketch-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.sketch-content li img:hover {
+	opacity: 0.8;
+}
+
+.logo-container {
+	margin: 300px 0;
+}
+
+.logo-content {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.logo-content li {
+	list-style: none;
+    width: calc(100%/1);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.logo-content li img {
+	max-width: 50%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.logo-content li img:hover {
+	opacity: 0.8;
+}
+
+.logo-content h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.logo-content p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.product-container {
+	margin: 300px 0 0 0;
+}
+
+.game-content {
+	text-align: center;
+	padding: 100px 0 0 0;
+}
+
+.game-content h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.game-content p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.game-content li {
+	list-style: none;
+    width: calc(65%/5);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.game-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.game-content li img:hover {
+	opacity: 0.8;
+}
+
+.freepaper-content {
+	text-align: center;
+	padding: 150px 0 0 0;
+}
+
+.freepaper-content h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.freepaper-content p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.freepaper-content li {
+	list-style: none;
+    width: calc(65%/4);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.freepaper-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.freepaper-content li img:hover {
+	opacity: 0.8;
+}
+
+.postcard-content {
+	text-align: center;
+	padding: 150px 0 0 0;
+}
+
+.postcard-content h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.postcard-content p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.postcard-content li {
+	list-style: none;
+    width: calc(63%/4);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.postcard-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.postcard-content li img:hover {
+	opacity: 0.8;
+}
+
+.cycle-content {
+	text-align: center;
+	padding: 150px 0 200px 0;
+}
+
+.cycle-content h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.cycle-content p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.cycle-content li {
+	list-style: none;
+    width: calc(70%/5);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.cycle-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.cycle-content li img:hover {
+	opacity: 0.8;
 }
 
 .service-container {
-	padding: 150px 100px 0px 100px;
+	padding: 150px 0px 0px 0px;
 	text-align: center;
 	height: auto;
+}
+
+.work {
+	margin: 250px 0 0 0;
+	text-align: center;
+	padding: 100px 0 200px 0;
+}
+
+.work h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.work p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.work li {
+	list-style: none;
+    width: calc(70%/5);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.work li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.work li img:hover {
+	opacity: 0.8;
+}
+
+.rigare-content {
+	padding: 50px 0 300px 0;
+}
+
+.irie-content {
+	padding: 50px 0 100px 0;
 }
 
 .service-container h1 {
@@ -149,20 +493,18 @@ main {
 }
 
 .plans {
-	display: inline-block;
-	padding: 150px 0 50px 0;
-	
+	display: flex;
+	padding: 50px 0 50px 0;
 }
 
 .plan {
-	float: left;
-	margin: 0 0;
+	margin: 100px 100px;
 }
 
 .plan-icon li {
 	list-style: none;
     width: calc(100%/2);  /*←画像を横に2つ並べる場合*/
-    padding: 30px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    padding: 30px 15px 5px 15px;  /*←画像の左右に5pxの余白を入れる場合*/
     box-sizing: border-box;
 	display: inline-block;
 }
@@ -229,14 +571,113 @@ main {
 .work-content li {
 	list-style: none;
 	float: left;
-	width: calc(100%/4);  /*←画像を横に4つ並べる場合*/
-    padding: 0px 20px;  /*←画像の上下に20pxの余白を入れる場合*/
+	width: calc(100%/2);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 10px;  /*←画像の上下に20pxの余白を入れる場合*/
     box-sizing: border-box;
 }
 
 .work-content li img {
-    max-width: 80%;  /*画像のはみだしを防ぐ*/
+    max-width: 40%;  /*画像のはみだしを防ぐ*/
     height: auto;  /*画像の縦横比を維持 */
+}
+
+.contact-form {
+	padding: 100px 0 150px 150px;
+}
+
+ /* --- INPUT=TEXTの標準デザイン設定 ---------------------*/
+.inText {
+	box-sizing    : border-box;
+	margin        : 0;
+	vertical-align: top;
+	
+	width         : 100%;                /* 一旦100%幅     */
+	max-width     : 300px;               /* 入力域の最大幅 */
+	height        : 30px;                /* 入力域の高さ   */
+	background    : #ffffff;             /* 入力域の背景色 */
+	border        : 2px solid #39EB32;   /* 入力域の枠線   */
+	border-radius : 4px;                 /* 入力域の角丸   */
+	padding       : 0 10px;              /* 入力文字の余白 */
+	font-size     : 10px;                /* 入力文字サイズ */
+	color         : #333333;             /* 入力文字の色   */
+	font-weight   : bold;                /* 入力文字の太字 */
+	letter-spacing: .1em;                /* 入力文字の間隔 */
+}
+ /* --- 入力フィールドにフォーカスか来たら ----------------*/
+.inText:focus {
+	box-shadow    : 4px 4px 2px #999;        /* 影付け     */
+	outline       : 0;
+}
+ /* --- 入力説明の文字(標準) -----------------------------*/
+.inText:placeholder-shown {
+	color         : #808080;                 /* 文字色     */
+	font-size     : 9px;                    /* 少し小さく */
+}
+ /* --- 入力説明の文字(Chrome,Safari,Android,iOS等) ---- -*/
+.inText::-webkit-input-placeholder {
+	color         : #808080;                 /* 文字色     */
+	font-size     : 9px;                    /* 少し小さく */
+}
+ /* --- 入力説明の文字(IE用) -----------------------------*/
+.inText:-ms-input-placeholder {
+	color         : #808080;                 /* 文字色     */
+	font-size     : 9px;                    /* 少し小さく */
+}
+ /* --- IEの入力エリア右側×消し -------------------------*/
+.inText::-ms-clear {
+	display     : none;                      /* ×を消す   */
+}
+
+.textArea {
+	width         : 285px;               /* 入力域の最大幅 */
+	height        : 137px;                /* 入力域の高さ   */
+	background    : #ffffff;             /* 入力域の背景色 */
+	border        : 2px solid #39eb32;   /* 入力域の枠線   */
+	border-radius : 4px;                 /* 入力域の角丸   */
+	padding       : 5px;                /* 入力文字の余白 */
+	font-size     : 11px;                /* 入力文字サイズ */
+	color         : #333333;             /* 入力文字の色   */
+	font-weight   : bold;                /* 入力文字の太字 */
+	letter-spacing: .1em;                /* 入力文字の間隔 */
+	line-height   : 13px;                /* 入力文字の間隔 */
+}
+ /* --- 入力フィールドにフォーカスか来たら ----------------*/
+.textArea:focus {
+	box-shadow    : 4px 4px 2px #999;        /* 影付け     */
+	outline       : 0;
+}
+ /* --- 入力説明の文字(標準) -----------------------------*/
+.textArea:placeholder-shown {
+	color         : #808080;                 /* 文字色     */
+}
+ /* --- 入力説明の文字(Chrome,Safari,Android,iOS等) ---- -*/
+.textArea::-webkit-input-placeholder {
+	color         : #808080;                 /* 文字色     */
+}
+ /* --- 入力説明の文字(IE用) -----------------------------*/
+.textArea:-ms-input-placeholder {
+	color         : #808080;                 /* 文字色     */
+}
+
+.button {
+	display       : inline-block;
+	border-radius : 5%;          /* 角丸       */
+	font-size     : 10pt;        /* 文字サイズ */
+	text-align    : center;      /* 文字位置   */
+	cursor        : pointer;     /* カーソル   */
+	padding       : 12px 27px;   /* 余白       */
+	background    : #ffffff;     /* 背景色     */
+	color         : #39EB32;     /* 文字色     */
+	line-height   : 1em;         /* 1行の高さ  */
+	transition    : .3s;         /* なめらか変化 */
+	box-shadow    : 4px 4px 3px #666666;  /* 影の設定 */
+	border        : 2px solid #39EB32;    /* 枠の指定 */
+}
+
+.button:hover {
+	box-shadow    : none;        /* カーソル時の影消去 */
+	color         : #ffffff;     /* 文字色     */
+	background    : #39EB32;     /* 背景色     */
 }
 
 footer {
@@ -315,7 +756,7 @@ footer {
 	margin-left: -80px;
 }
 
-#page-top {
+#page_top {
 	width: 50px;
 	height: 50px;
 	position: fixed;
@@ -325,14 +766,14 @@ footer {
 	opacity: 0.6;
 	border-radius: 50%;
 }
-#page-top a {
+#page_top a {
 	position: relative;
 	display: block;
 	width: 50px;
 	height: 50px;
 	text-decoration: none;
 }
-#page-top a::before {
+#page_top a::before {
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 	content: '\f102';
