@@ -1,0 +1,348 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	padding: 0px;
+	margin: 0;
+	font-family: "YuGothic", "Yu Gothic medium", "Hiragino Sans", "Meiryo", "sans-serif";
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	background-color: #333333;
+	height: auto;
+}
+
+.top-banner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-banner li {
+	list-style: none;
+    padding: 30px 0px 30px 100px;  /*←画像の上下に20pxの余白を入れる場合*/
+    box-sizing: border-box;
+}
+
+.top-banner li img {
+    max-width: 35%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+.header-right {
+	float: right;
+	margin-right: 100px;
+	margin-top: -60px;
+	font-size: 15px;
+}
+
+.header-right li {
+	list-style: none;
+	padding: 0 25px;
+	display: block;
+	float: left;
+	transition: all 0.5s;
+}
+
+.header-right li a{
+	color: white;
+	position: relative;
+	text-decoration: none;
+}
+
+.header-right a:hover {
+	color: #5CB531;
+	text-decoration: underline;
+}
+
+.sns-icon{
+	float: right;
+    display: flex;
+    flex-wrap: wrap;
+	margin-top: -240px;
+}
+
+.instagram {
+	margin-right: -90px;
+}
+
+.instagram li {
+	list-style: none;
+    padding: 35px 0;  /*←画像の上下に20pxの余白を入れる場合*/
+    box-sizing: border-box;
+}
+
+.instagram li img {
+    max-width: 15%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+.twitter {
+	margin-right: auto;
+}
+
+.twitter li {
+	list-style: none;
+    padding: 35px 0;  /*←画像の上下に20pxの余白を入れる場合*/
+    box-sizing: border-box;
+}
+
+.twitter li img {
+    max-width: 15%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+.top-wrapper {
+	padding: 300px 300px;
+	background-image: url("../images/top.jpeg");
+	background-size: cover;
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+.top-wrapper:hover {
+	opacity: 0.8;
+}
+
+.top-wrapper h1 {
+	text-align: center;
+	color: red;
+}
+
+
+.top-wrapper h1 {
+	text-align: center;
+	color: red;
+}
+
+main {
+	background-color: #dedede;
+	height: auto;
+}
+
+.service-container {
+	padding: 150px 0px 0px 0px;
+	text-align: center;
+	height: auto;
+}
+
+.service-container h1 {
+	display: inline-block;
+	border-bottom: 1.5px solid #707070;
+}
+
+.service-container span {
+	color: #FB8100;
+}
+
+.plans {
+	display: flex;
+	padding: 50px 0 50px 0;
+}
+
+.plan {
+	margin: 100px 100px;
+}
+
+.plan-icon li {
+	list-style: none;
+    width: calc(100%/2);  /*←画像を横に2つ並べる場合*/
+    padding: 30px 15px 5px 15px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.plan-icon li img {
+	max-width: 50%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.design-container {
+	padding: 120px 100px 100px 100px;
+	text-align: center;
+}
+
+.design-container h1 {
+	display: inline-block;
+	border-bottom: 1.5px solid #707070;
+}
+
+.design-container span {
+	color: #FF00F5;
+}
+
+.design-content {
+	margin: 100px 100px;
+}
+
+.design-content li {
+	list-style: none;
+	float: left;
+	width: calc(100%/4);  /*←画像を横に4つ並べる場合*/
+    box-sizing: border-box;
+}
+
+.design-content li h4 {
+	text-align: left;
+	padding-left: 33px;
+	padding-bottom: 20px;
+}
+
+.design-content li img {
+    max-width: 70%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+.work-container {
+	padding: 350px 100px 350px 100px;
+	text-align: center;
+}
+
+.work-container h1 {
+	display: inline-block;
+	border-bottom: 1.5px solid #707070;
+}
+
+.work-container span {
+	color: #4FBCF5;
+}
+
+.work-content {
+	margin: 100px 100px;
+}
+
+.work-content li {
+	list-style: none;
+	float: left;
+	width: calc(100%/4);  /*←画像を横に4つ並べる場合*/
+    padding: 0px 20px;  /*←画像の上下に20pxの余白を入れる場合*/
+    box-sizing: border-box;
+}
+
+.work-content li img {
+    max-width: 80%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+footer {
+	background-color: #333333;
+	height: 170px;
+	width: 100%;
+	bottom:0;
+}
+
+.back-banner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.back-banner li {
+	list-style: none;
+    padding: 16px 30px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+}
+
+.back-banner li img {
+    max-width: 10%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+.footer-menu {
+	float: left;
+	margin-left: 250px;
+	margin-top: -145px;
+}
+
+.footer-menu li {
+	list-style: none;
+	line-height: 30px;
+	padding: 0 25px;
+	display: block;
+	transition: all 0.5s;
+}
+
+.footer-menu li a{
+	color: white;
+	position: relative;
+}
+
+.footer-menu a:hover {
+	color: #5CB531;
+}
+
+.footersns-icon {
+    display: flex;
+    flex-wrap: wrap;
+	margin-top: -150px;
+	margin-left: 300px;
+}
+
+.footer-icon {
+	margin: auto;
+	position: relative;
+}
+
+.footer-icon li {
+	list-style: none;
+    padding: 20px 0;  /*←画像の上下に20pxの余白を入れる場合*/
+    box-sizing: border-box;
+}
+
+.footer-icon li img {
+    max-width: 15%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+	vertical-align: inherit;
+}
+
+.footer-icon p {
+	color: white;
+	float: right;
+	margin-left: -80px;
+}
+
+#page_top {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 20px;
+	bottom: 0;
+	background: #5CB531;
+	opacity: 0.6;
+	border-radius: 50%;
+}
+#page_top a {
+	position: relative;
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+}
+#page_top a::before {
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	content: '\f102';
+	font-size: 25px;
+	color: #FFE100;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: -5px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	text-align: center;
+}
